@@ -25,7 +25,6 @@ export const Form = ({ onFormSubmit }) => {
 
   const formSubmitHandler = evt => {
     evt.preventDefault();
-    // console.log(name, number);
     onFormSubmit(name, number);
     formReset();
   };

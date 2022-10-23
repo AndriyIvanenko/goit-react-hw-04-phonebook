@@ -19,5 +19,5 @@ export const ContactsItem = ({ contact, throwDeleteId }) => {
 
 ContactsItem.propTypes = {
   contact: PropTypes.object,
-  upDeleteId: PropTypes.func,
+  throwDeleteId: PropTypes.func,
 };
